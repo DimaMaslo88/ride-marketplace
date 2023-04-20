@@ -1,0 +1,10 @@
+.table {
+  padding: 17px 17px;
+  width: auto;
+  @media (max-width: 787px) {
+  }
+
+  @media (max-width: 600px) {
+    padding: 14px 14px;
+  }
+}

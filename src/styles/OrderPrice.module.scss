@@ -1,0 +1,35 @@
+.OrderPrice{
+  background-color: #E9E8E8;
+  width: 289px;
+  height: 159px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 15px;
+
+  p{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    color: #97909C;
+    margin-bottom: 15px;
+  }
+  .price{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 41px;
+    color: #2D2731;
+    margin-bottom: 15px;
+  }
+  .total{
+    color: #97909C;
+  }
+@media screen and (max-width: 1200px){
+  display: none;
+}
+}

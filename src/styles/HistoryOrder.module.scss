@@ -1,0 +1,57 @@
+.MyOrders{
+  display: flex;
+  flex-direction: row;
+
+  .MyOrders__History{
+    margin-left: 30px;
+    margin-top: 5vh;
+    width: 65vw;
+    height: 398px;
+  }
+
+  .title{
+    width: max-content;
+    h1{
+      margin: 10px 0 15px;
+    }
+  }
+  .ButtonHistory{
+    width: 100%;
+    margin-bottom: 19.5px;
+    button{
+      width: 50%;
+      height: 40px;
+      color: #9E9E9E;
+      background-color:white;
+      border: none;
+    }
+    button:hover{
+      color: #A75C5C;
+      border-bottom: solid 1px #A75C5C ;
+    }
+  }
+  .table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: max-content;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    flex: none;
+    order: 3;
+    flex-grow: 1;
+
+    .table{
+      width: 100%;
+      thead{
+        th{
+          min-width: 100px;
+          color:black;
+        }
+      }
+    }
+  }
+}

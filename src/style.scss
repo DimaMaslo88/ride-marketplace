@@ -1,0 +1,124 @@
+@import "~antd/dist/reset.css";
+@import "~antd/dist/reset.css";
+// @import "./assets/css/antd-overrides.scss";
+// @import "./assets/css/variables.scss";
+//@use "scss";
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #F5F7F7;
+}
+
+p {
+  color: #6a6a79;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 140.8%;
+}
+
+.d-flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.d-flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.balance-check {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #23293f;
+  font-size: 1.25rem;
+}
+
+.mr-10 {
+  margin: 0 10px 0 10px;
+}
+
+.mr-r-10 {
+  margin-right: 10px;
+}
+
+.mr-l-10 {
+  margin-left: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.prefix {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  color: #3c444e;
+  margin: 8px 0;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 0.5px solid #e6e6e6;
+}
+
+.danger {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 140.8%;
+  color: var(--danger);
+}
+
+.circle-download_button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.mr-0 {
+  margin: 0 0 0 0 !important;
+}
+
+.mr-t-10 {
+  margin-top: 10px !important;
+}
+
+.bgcolor-w {
+  background-color: white;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.toastify-overrides {
+  .Toastify__progress-bar-theme--light {
+    background: var(--secondary-dark);
+  }
+}
+
+.ant-layout-content {
+  font-family: "Roboto" !important;
+}
+
+.sticky-sidebar {
+  position: sticky;
+  top: 0;
+}

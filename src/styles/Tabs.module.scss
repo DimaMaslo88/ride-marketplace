@@ -1,0 +1,30 @@
+.tabs{
+  .ant_tabs_tab:hover{
+    color: black;
+  }
+  .ant-tabs-ink-bar{
+    background-color:black;
+  }
+  .ant-tabs-nav{
+    margin: auto;
+  }
+  .ant_tabs_nav_list {
+    margin-left: 30px;
+  }
+  .ant_tabs_tab{
+    height: 58px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8C8C8C;
+  }
+  .ant-tabs-tab-active{
+    div{
+    color: black!important;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
+}

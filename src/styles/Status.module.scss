@@ -1,0 +1,47 @@
+.status {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--main-blue);
+  background: rgba(0, 165, 255, 0.1);
+  border-radius: 4px;
+
+  &.consideration {
+    background: rgba(0, 165, 255, 0.1);
+    color: var(--main-blue);
+  }
+
+  &.rejected {
+    background: rgba(252, 52, 0, 0.1);
+    color: var(--main-red);
+  }
+
+  &.done {
+    background: rgba(32, 201, 172, 0.1);
+    color: var(--main-green);
+  }
+
+  &.pending {
+    background: rgba(0, 165, 255, 0.1);
+    color: var(--main-blue);
+  }
+
+  &.rejected {
+    background: rgba(252, 52, 0, 0.1);
+    color: var(--main-red);
+  }
+
+  &.deleted {
+    background: rgba(252, 52, 0, 0.1);
+    color: var(--main-red);
+  }
+
+  &.success {
+    background: rgba(32, 201, 172, 0.1);
+    color: var(--main-green);
+  }
+}

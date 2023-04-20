@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald"), url(../src/fonts/Oswald-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../src/fonts/Oswald-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(../src/fonts/Oswald-Medium.ttf);
+  font-weight: 500;
+}
+/**{*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+
+/*}*/
+
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  border: 0;*/
+/*  font-size: 100%;*/
+/*  font: inherit;*/
+/*  vertical-align: baseline;*/
+/*  user-select: none*/
+/*}*/
+
+/*!* HTML5 display-role reset for older browsers *!*/
+
+/*article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {*/
+/*  display: block; }*/
+
+/*body {*/
+/*  line-height: 1; }*/
+
+/*ol, ul {*/
+/*  list-style: none; }*/
+
+/*blockquote, q {*/
+/*  quotes: none; }*/
+
+
+/*table {*/
+/*  border-collapse: collapse;*/
+/*  border-spacing: 0; }*/
+
+/*a{*/
+/*  text-decoration: none;*/
+/*  color:#ffffff*/
+/*}*/
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #F5F7F7;
+}
+
+p {
+  color: #6a6a79;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 140.8%;
+}
+
+.d-flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.d-flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.balance-check {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #23293f;
+  font-size: 1.25rem;
+}
+
+.mr-10 {
+  margin: 0 10px 0 10px;
+}
+
+.mr-r-10 {
+  margin-right: 10px;
+}
+
+.mr-l-10 {
+  margin-left: 10px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.prefix {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  color: #3c444e;
+  margin: 8px 0;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 0.5px solid #e6e6e6;
+}
+
+.danger {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 140.8%;
+  color: var(--danger);
+}
+
+.circle-download_button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.mr-0 {
+  margin: 0 0 0 0 !important;
+}
+
+.mr-t-10 {
+  margin-top: 10px !important;
+}
+
+.bgcolor-w {
+  background-color: white;
+}
+
+.h-100 {
+  height: 100%;
+}
+/*.toastify-overrides {*/
+/*.Toastify__progress-bar-theme--light {*/
+/*  background: var(--secondary-dark);*/
+/*}*/
+/*}*/
+.ant-layout-content {
+  font-family: "Roboto" !important;
+}
+
+.sticky-sidebar {
+  position: sticky;
+  top: 0;
+}

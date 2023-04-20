@@ -1,0 +1,86 @@
+.page_header_container{
+  width: 100vw;
+  height: 60px!important;
+  background-color: white!important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .menuIconContainer{
+    display: flex;
+
+  }
+  .menuIcon{
+
+    display: flex;
+    margin: 10px;
+  }
+  .logoGroup{
+    display: flex;
+
+  }
+
+  .form_logo {
+    width: 114px;
+    height: 41.5px;
+    margin-top: auto;
+    .ant-btn{
+      margin-left: 100px;
+      color: white;
+      background: #282828;
+      font-size: 14px;
+      width: 80px;
+      height: 32px;
+      border-radius: 5px;
+      padding: 4px 16px;
+
+    }
+
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  //.come_in {
+  //  margin: auto;
+  //  margin-right: 65px;
+  //  color: white!important;
+  //  background: #282828!important;
+  //  font-size: 14px!important;
+  //  width: 80px!important;
+  //  height: 32px!important;
+  //  border-radius: 5px!important;
+  //  padding: 3px 16px!important;
+  //}
+  .loginUser{
+    margin-right: 65px;
+    .UserLogo{
+      margin: 0 19px;
+
+    }
+    .logOut{
+      cursor: pointer;
+
+    }
+
+    .logOut:hover{
+      width: 30px;
+    }
+
+  }
+  @media screen and (min-width: 700px){
+     .menuIcon{
+       display: none;
+     }
+  }
+
+}
+
+
+
+
+
+
+
+
+

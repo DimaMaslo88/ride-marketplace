@@ -1,0 +1,151 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+ // background-color: gold;
+
+  #login {
+    width: 75vw;
+    height: 508px;
+    margin: auto;
+    margin-top: 60px;
+
+    .title {
+      margin: auto;
+    }
+  }
+
+  .Tabs_Login {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .ant_tabs_nav_list {
+      //margin: auto;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .ant_tabs_tab {
+      justify-content: center;
+      color: #8C8C8C;
+      width: 33%
+    }
+
+    .ant_tabs_tab:hover {
+      color: #A75C5C;
+    }
+
+    .ant-tabs-tab-active {
+      width: 33%;
+
+      div {
+        color: #A75C5C !important;
+      }
+    }
+
+    .ant-tabs-ink-bar {
+      background-color: #A75C5C !important;
+    }
+    .login_button {
+      width: 173px;
+      height: 51px;
+      background: #A75C5C;
+      border-radius: 5px;
+      color: #FFFFFF;
+      font-weight: 500;
+      font-size: 16px;
+      box-shadow: none;
+      border: solid 2px #A75C5C;
+      margin: auto;
+      margin-top: 45px;
+    }
+
+    .login_button:active {
+      background: #bf6969;
+    }
+    //.client {
+    //  display: flex;
+    //  flex-direction: column;
+    //  align-items: center;
+    //  width: 100%;
+    //  height: 100%;
+    //  background: #FFFFFF;
+    //  border-radius: 5px;
+    //  margin-top: 32px;
+    //  padding: 50px 125px;
+    //
+    //  .pageTitle {
+    //    margin-bottom: 10px;
+    //  }
+    //}
+
+    p {
+      font-size: 15px;
+    }
+
+
+
+    .phone {
+      text-align:center
+    }
+
+    .phoneCode {
+      box-sizing: border-box;
+      border: 1px solid #E3E5E6;
+      margin: 35px 38px 0 0;
+      width: 111px;
+      height: 48px;
+      border-radius: 8px;
+      padding: 14px 50px;
+
+    }
+
+    #phoneCode4 {
+      border: 1px solid #E3E5E6;
+      margin: 35px 0px 0 0;
+      width: 111px;
+      height: 48px;
+      border-radius: 8px;
+      padding: 14px 50px;
+
+    }
+  }
+  .client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 32px;
+    padding: 50px ;
+
+    .pageTitle {
+      margin-bottom: 10px;
+    }
+  }
+  .inputProvider{
+    width: 554px;
+    height: 48px;
+    font-size: x-large;
+    margin-bottom: 30px;
+    border-radius: 8px;
+
+  }
+  @media screen and (max-width:415px){
+    .client{
+      height: 60%;
+      padding: 3px;
+
+    }
+  }
+
+
+}
+
+
+
